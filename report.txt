@@ -1,0 +1,95 @@
+Info: Processing symbol 'C1:Capacitor_THT:CP_Radial_D10.0mm_P5.00mm'.
+Info: Processing symbol 'J3:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal'.
+Info: Processing symbol 'C2:Capacitor_THT:CP_Radial_D8.0mm_P3.50mm'.
+Info: Processing symbol 'D1:Diode_THT:D_DO-201AD_P15.24mm_Horizontal'.
+Info: Processing symbol 'J4:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal'.
+Info: Processing symbol 'L1:Inductor_SMD:L_Bourns_SRR1260'.
+Info: Processing symbol 'U1:Package_TO_SOT_SMD:TO-263-5_TabPin3'.
+Updated C1 symbol association from  to /0ac7c295-e850-41f9-afc6-6db656250fa2.
+Updated C1 fields.
+Updated C1 sheetname to '/'.
+Updated C1 sheetfile to 'LM2596_Buck_Converter.kicad_sch'.
+Updated C1 footprint filters to 'CP_*'.
+Add net +12V.
+Connected C1 pin 1 to +12V.
+Add net GND.
+Connected C1 pin 2 to GND.
+Updated C1 unit metadata.
+Added C2 (footprint 'Capacitor_THT:CP_Radial_D8.0mm_P3.50mm').
+Changed REF** reference designator to C2.
+Changed C2 value from CP_Radial_D8.0mm_P3.50mm to 220uF 10V Low ESR.
+Updated C2 symbol association from  to /bcc400e6-14d5-4933-ad8a-5b8f2b3d2013.
+Updated C2 fields.
+Updated C2 sheetname to '/'.
+Updated C2 sheetfile to 'LM2596_Buck_Converter.kicad_sch'.
+Updated C2 footprint filters to 'CP_*'.
+Add net +5V.
+Connected C2 pin 1 to +5V.
+Connected C2 pin 2 to GND.
+Updated C2 unit metadata.
+Added D1 (footprint 'Diode_THT:D_DO-201AD_P15.24mm_Horizontal').
+Changed REF** reference designator to D1.
+Changed D1 value from D_DO-201AD_P15.24mm_Horizontal to D_Schottky.
+Updated D1 symbol association from  to /a81eedd1-ab4e-4fa0-9138-1fd4981f2f24.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Updated D1 sheetfile to 'LM2596_Buck_Converter.kicad_sch'.
+Updated D1 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Add net Net-(D1-K).
+Connected D1 pin 1 to Net-(D1-K).
+Connected D1 pin 2 to GND.
+Updated D1 unit metadata.
+Added J3 (footprint 'TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal').
+Changed REF** reference designator to J3.
+Changed J3 value from TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal to Conn_01x02.
+Updated J3 symbol association from  to /9047c72f-d596-4f4e-b07e-ea304f9d36cc.
+Updated J3 fields.
+Updated J3 sheetname to '/'.
+Updated J3 sheetfile to 'LM2596_Buck_Converter.kicad_sch'.
+Updated J3 footprint filters to 'Connector*:*_1x??_*'.
+Connected J3 pin 1 to +12V.
+Connected J3 pin 2 to GND.
+Updated J3 unit metadata.
+Added C1 (footprint 'Capacitor_THT:CP_Radial_D10.0mm_P5.00mm').
+Added J4 (footprint 'TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal').
+Changed REF** reference designator to J4.
+Changed J4 value from TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal to Conn_01x02.
+Updated J4 symbol association from  to /3a92cf1b-8982-4e3b-b165-ed0cf6522ced.
+Updated J4 fields.
+Updated J4 sheetname to '/'.
+Updated J4 sheetfile to 'LM2596_Buck_Converter.kicad_sch'.
+Updated J4 footprint filters to 'Connector*:*_1x??_*'.
+Connected J4 pin 2 to GND.
+Connected J4 pin 1 to +5V.
+Updated J4 unit metadata.
+Changed REF** reference designator to C1.
+Added L1 (footprint 'Inductor_SMD:L_Bourns_SRR1260').
+Changed REF** reference designator to L1.
+Changed L1 value from L_Bourns_SRR1260 to L.
+Updated L1 symbol association from  to /3353ad08-bed3-489c-b2b1-2c32728b39ec.
+Updated L1 fields.
+Updated L1 sheetname to '/'.
+Updated L1 sheetfile to 'LM2596_Buck_Converter.kicad_sch'.
+Updated L1 footprint filters to 'Choke_* *Coil* Inductor_* L_*'.
+Connected L1 pin 1 to Net-(D1-K).
+Connected L1 pin 2 to +5V.
+Updated L1 unit metadata.
+Changed C1 value from CP_Radial_D10.0mm_P5.00mm to 680uF 25V.
+Added U1 (footprint 'Package_TO_SOT_SMD:TO-263-5_TabPin3').
+Changed REF** reference designator to U1.
+Changed U1 value from TO-263-5_TabPin3 to LM2596S-5.
+Updated U1 symbol association from  to /224b4588-2d89-42ec-bae6-352861aeed91.
+Updated U1 fields.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'LM2596_Buck_Converter.kicad_sch'.
+Updated U1 footprint filters to 'TO?263*'.
+Connected U1 pin 1 to +12V.
+Connected U1 pin 2 to Net-(D1-K).
+Connected U1 pin 5 to GND.
+Connected U1 pin 3 to GND.
+Connected U1 pin 4 to +5V.
+Connected U1 pin 3 to GND.
+Updated U1 unit metadata.
+
+
+Info: Total warnings: 0, errors: 0.
