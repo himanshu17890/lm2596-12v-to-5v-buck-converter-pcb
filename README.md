@@ -67,6 +67,11 @@ The design was verified in KiCad's built-in ngspice simulator using Texas Instru
 - Soft-start ramp from 0 V to regulation in **~1 ms**, matching the LM2596's internal soft-start behavior.
 - With an ideal (zero-ESR) output capacitor, the loop rings at roughly 15 kHz with ~80 mV peak-to-peak swing, as shown above. Adding a realistic ESR of 0.05-0.1 ohm in series with C2 (representative of a genuine low-ESR electrolytic) damps this to **~20 mV**, confirming the datasheet's note that very low output-capacitor ESR can destabilize the feedback loop.
 
+- <img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/1218fc1d-33f4-434d-885e-a09067fb1098" />
+<img width="1917" height="1025" alt="image" src="https://github.com/user-attachments/assets/85703340-b0cd-4d6e-82f6-4c7a916502fd" />
+
+
+
 **Model file:** [`sim/LM2596_5P0_TRANS.LIB`](sim/LM2596_5P0_TRANS.LIB)
 See [`sim/SIMULATION_RESULTS.md`](sim/SIMULATION_RESULTS.md) for the full write-up, pin mapping, and settings.
 
